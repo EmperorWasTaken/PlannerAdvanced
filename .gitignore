@@ -1,9 +1,6 @@
 # Miscellaneous
 *.class
-<<<<<<< HEAD
-=======
 *.lock
->>>>>>> e72c99773ee959473aa563ca6ee22cc49822149f
 *.log
 *.pyc
 *.swp
@@ -19,7 +16,6 @@
 *.iws
 .idea/
 
-<<<<<<< HEAD
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
@@ -44,7 +40,6 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
-=======
 # Visual Studio Code related
 .classpath
 .project
@@ -144,4 +139,3 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
->>>>>>> e72c99773ee959473aa563ca6ee22cc49822149f
