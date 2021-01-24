@@ -1,9 +1,9 @@
 # Planner Advanced!
 
-# Introduction
-### This is a task planning app created with Flutter.
+## Introduction
+This is a task planning app created with Flutter.
 
-# Task List:
+## Task List:
 
 - [x] Make a base project.
 - [x] Create a Git repository.
