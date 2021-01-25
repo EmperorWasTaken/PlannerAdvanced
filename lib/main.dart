@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:planner_advanced/models/classes/routing/routing_constants.dart';
 import 'package:planner_advanced/screens/home/top_bar.dart';
 
 import 'constants.dart';
+import 'models/classes/routing/router.dart' as router;
 
 void main() => runApp(MyApp());
 
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Planner Advanced',
       theme: ThemeData(),
-      home: HomeScreen(),
+      onGenerateRoute: router.generateRoute,
+      initialRoute: LoginViewRoute,
     );
   }
 }
